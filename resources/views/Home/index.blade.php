@@ -295,19 +295,19 @@
                                     <label for="toggle3" class="share-button">
                                         <i class="fas fa-plus"></i>
                                     </label>
-                                    <a href="#" class="share-icon facebook">
+                                    <a href="https://www.linkedin.com/in/saddam-satria-ardhi-837570170/" class="share-icon facebook">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                     <a href="#" class="share-icon twitter">
                                         <i class="fab fa-twitter"></i>
                                     </a>
-                                    <a href="#" class="share-icon instagram">
+                                    <a href="https://instagram.com/saddamsatria_12" class="share-icon instagram">
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                 </div>
                             </div>
                             <div class="info">
-                                <span><a href="team-details.html">Saddam Satria Ardhi</a></span>
+                                <span><a href="team-details.html">Saddam Satria</a></span>
                                 <!-- <p>Chief Financial Officer</p> -->
                                 <p> Universitas Bina Sarana Informatika</p>
                             </div>
