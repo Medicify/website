@@ -307,7 +307,7 @@
                                 </div>
                             </div>
                             <div class="info">
-                                <span><a href="team-details.html">Saddam Satria</a></span>
+                                <span><a href="team-details.html">Saddam Satria Ardhi</a></span>
                                 <!-- <p>Chief Financial Officer</p> -->
                                 <p> Universitas Bina Sarana Informatika</p>
                             </div>
