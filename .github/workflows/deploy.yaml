@@ -14,27 +14,27 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
       - name: moving cache app folder
-        run: cp -TRv app /var/www/medicify.org/website
+        run: cp -TRv app /var/www/medicify.org/website/app
       - name: moving cache bootstrap folder
-        run: cp -TRv bootstrap /var/www/medicify.org/website
+        run: cp -TRv bootstrap /var/www/medicify.org/website/bootstrap
       - name: moving cache config folder
-        run: cp -TRv config /var/www/medicify.org/website
+        run: cp -TRv config /var/www/medicify.org/website/config
       - name: moving cache database folder
-        run: cp -TRv database /var/www/medicify.org/website
+        run: cp -TRv database /var/www/medicify.org/website/database
       - name: moving cache database folder
-        run: cp -TRv database /var/www/medicify.org/website
+        run: cp -TRv database /var/www/medicify.org/website/database
       - name: moving cache lang folder
-        run: cp -TRv lang /var/www/medicify.org/website
+        run: cp -TRv lang /var/www/medicify.org/website/lang
       - name: moving cache public folder
-        run: cp -TRv public /var/www/medicify.org/website
+        run: cp -TRv public /var/www/medicify.org/website/public
       - name: moving cache resources folder
-        run: cp -TRv resources /var/www/medicify.org/website
+        run: cp -TRv resources /var/www/medicify.org/website/resources
       - name: moving cache routes folder
-        run: cp -TRv routes /var/www/medicify.org/website
+        run: cp -TRv routes /var/www/medicify.org/website/routes
       - name: moving cache storages folder
-        run: cp -TRv storage /var/www/medicify.org/website
+        run: cp -TRv storage /var/www/medicify.org/website/storage
       - name: moving cache tests folder
-        run: cp -TRv tests /var/www/medicify.org/website
+        run: cp -TRv tests /var/www/medicify.org/website/tests
       - name: moving cache artisan file
         run: cp -Tv artisan /var/www/medicify.org/website/artisan
       - name: moving cache composer.json file
