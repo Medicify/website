@@ -32,7 +32,7 @@ jobs:
       - name: moving cache routes folder
         run: cp -TRv routes /var/www/medicify.org/website
       - name: moving cache storages folder
-        run: cp -TRv storages /var/www/medicify.org/website
+        run: cp -TRv storage /var/www/medicify.org/website
       - name: moving cache tests folder
         run: cp -TRv tests /var/www/medicify.org/website
       - name: moving cache artisan file
