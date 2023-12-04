@@ -117,15 +117,7 @@
                 </ul>
             </div><!-- /.navbar-collapse -->
 
-            <div class="attr-right">
-                <!-- Start Atribute Navigation -->
-                <div class="attr-nav">
-                    <ul>
-                        <li class="button"><a href="/login">Login</a></li>
-                    </ul>
-                </div>
-                <!-- End Atribute Navigation -->
-            </div>
+       
 
             <!-- Main Nav -->
         </div>
