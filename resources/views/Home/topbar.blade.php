@@ -121,7 +121,7 @@
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>
-                        <li class="button"><a href="/login">Login</a></li>
+                        {{-- <li class="button"><a href="/login">Login</a></li> --}}
                     </ul>
                 </div>
                 <!-- End Atribute Navigation -->

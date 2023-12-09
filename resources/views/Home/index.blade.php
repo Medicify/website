@@ -582,7 +582,7 @@ Jelajahi dunia kesehatan melalui Medicify Blog, sumber informasi andal untuk ber
     <!-- Start Free Trial
     ============================================= -->
     <div class="free-trial-area text-light text-center relative">
-        <div class="trial-box" style="background-image: url(assets/img/shape/8.png);">
+        <div class="trial-box" style="background-image: url(assets/img/shape/33.png);">
             <div class="container">
                 <p> <strong> Didukung Oleh </strong></p>
                 <div class="row">
