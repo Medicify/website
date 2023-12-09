@@ -6,7 +6,7 @@
 <body>
 
     <!-- Preloader Start -->
-      <div class="se-pre-con">
+      {{-- <div class="se-pre-con"> --}}
 
       </div>
       <!-- Preloader Ends -->
