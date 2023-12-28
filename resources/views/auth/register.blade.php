@@ -34,7 +34,7 @@
                                 <div class="card justify-content-center">
                                     <div class="card-body text-left pt-5 px-sm-5">
                                         <div class="brand-logo d-flex justify-content-center ">
-                                            <img src="logo.png" alt="logo">
+                                            <img src="assets/img/logo.png" alt="logo">
                                         </div>
                                         <h4 class="my-auto p-2 text-center">PT Mandau Cipta Tenaga Nusantara</h3>
                                     </div>
@@ -79,9 +79,9 @@
                                                 <button type="submit" class="btn btn-primary">
                                                     {{ __('Register') }}
                                                 </button>
-                                                <button type="button" class="btn btn-block btn-microsoft auth-form-btn btn-outline-secondary my-sm-2">
+                                                {{-- <button type="button" class="btn btn-block btn-microsoft auth-form-btn btn-outline-secondary my-sm-2">
                                                   <i class="ti-microsoft me-2"></i>Connect using Microsoft
-                                                </button>
+                                                </button> --}}
                                             </div>
                                         </form>
                                     </div>

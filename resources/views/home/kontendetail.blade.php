@@ -231,7 +231,7 @@
                                         {{ $post->judul }}
                                     </h3>
                                     <p>
-                                        {{ $post->konten }}
+                                        {!! htmlspecialchars_decode( $post->konten) !!}
                                     </p>
                                 </div>
                             </div>

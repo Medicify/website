@@ -56,7 +56,7 @@
                                     <button type="submit" class="btn btn-block btn-primary">
                                         {{ __('Login') }}
                                     </button>
-                                    <!-- Tombol Signin Google -->
+                                    {{-- <!-- Tombol Signin Google -->
                                     <button class="gsi-material-button btn border border-black" onclick="window.location.href = '{{ '/auth/redirect' }}';">
                                       <div class="gsi-material-button-state"></div>
                                       <div class="gsi-material-button-content-wrapper">
@@ -80,7 +80,7 @@
                                         <path d="M7.462 0H0v7.19h7.462V0zM16 0H8.538v7.19H16V0zM7.462 8.211H0V16h7.462V8.211zm8.538 0H8.538V16H16V8.211z"/>
                                       </svg> Sign in with Microsoft
                                     </button>
-                                </div>
+                                </div> --}}
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                         {{ __('Forgot Your Password?') }}
