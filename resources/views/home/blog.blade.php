@@ -237,7 +237,7 @@
                                             <a href="{{ route('blog.single', $post->slug) }}">{{ $post->judul }}</a>
                                         </h3>
                                         <p>
-                                            {!! htmlspecialchars_decode (substr($post->konten, 0, 100)) !!}{{ strlen($post->konten) > 100 ? '...' : '' }}
+                                            {{ substr($post->konten, 0, 100) }}{{ strlen($post->konten) > 100 ? '...' : '' }}
                                         </p>
                                         <a class="btn circle btn-theme-border btn-sm" href="{{ route('blog.single', $post->slug) }}">Read More</a>
                                     </div>
