@@ -231,7 +231,7 @@
                                         {{ $post->judul }}
                                     </h3>
                                     <p>
-                                        {{ $post->konten }}
+                                       {!! $post->konten !!}
                                     </p>
                                 </div>
                             </div>

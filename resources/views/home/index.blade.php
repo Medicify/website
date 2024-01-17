@@ -537,6 +537,7 @@ Jelajahi dunia kesehatan melalui Medicify Blog, sumber informasi andal untuk ber
             </div>
         </div>
     </div>
+</div>
     <div class="container">
         <div class="row">
 
@@ -546,7 +547,7 @@ Jelajahi dunia kesehatan melalui Medicify Blog, sumber informasi andal untuk ber
                 <div class="item">
                     <div class="thumb">
                         <a href="{{ route('blog.single', $item->slug) }}">
-                            <img src="{{ asset('upload/post/' . $item->sampul) }} "width="200px" alt="Thumb">
+                            <img src="{{ asset('upload/post/' . $item->sampul) }}" width="200px" alt="Thumb">
                         </a>
                         <div class="date"><strong>{{ date('d', strtotime($item->created_at)) }}</strong> <span>{{ date('M', strtotime($item->created_at)) }}</span></div>
                     </div>
@@ -565,16 +566,16 @@ Jelajahi dunia kesehatan melalui Medicify Blog, sumber informasi andal untuk ber
                             <a href="{{ route('blog.single', $item->slug) }}">{{ $item->judul }}</a>
                         </h4>
                         <p>
-                            {{ substr($item->konten, 0, 100) }}{{ strlen($item->konten) > 100 ? '...' : '' }}
+                            {!! substr($item->konten, 0, 100) !!}
                         </p>
                     </div>
                 </div>
             </div>
             <!-- End Single item -->
-            @endforeach
+        @endforeach
 
         </div>
-    </div>
+
 </div>
 <!-- End Blog -->
 
