@@ -1,0 +1,67 @@
+name: deploy to server
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: self-hosted
+    defaults:
+      run:
+        working-directory: /var/www/medicify.org/runners/workdir/website/website
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: moving cache app folder
+        run: cp -TRv app /var/www/medicify.org/website/app
+      - name: moving cache bootstrap folder
+        run: cp -TRv bootstrap /var/www/medicify.org/website/bootstrap
+      - name: moving cache config folder
+        run: cp -TRv config /var/www/medicify.org/website/config
+      - name: moving cache database folder
+        run: cp -TRv database /var/www/medicify.org/website/database
+      - name: moving cache database folder
+        run: cp -TRv database /var/www/medicify.org/website/database
+      - name: moving cache lang folder
+        run: cp -TRv lang /var/www/medicify.org/website/lang
+      - name: moving cache public folder
+        run: cp -TRv public /var/www/medicify.org/website/public
+      - name: moving cache resources folder
+        run: cp -TRv resources /var/www/medicify.org/website/resources
+      - name: moving cache routes folder
+        run: cp -TRv routes /var/www/medicify.org/website/routes
+      - name: moving cache storages folder
+        run: cp -TRv storage /var/www/medicify.org/website/storage
+      - name: moving cache tests folder
+        run: cp -TRv tests /var/www/medicify.org/website/tests
+      - name: moving cache artisan file
+        run: cp -Tv artisan /var/www/medicify.org/website/artisan
+      - name: moving cache composer.json file
+        run: cp -Tv composer.json /var/www/medicify.org/website/composer.json
+      - name: moving cache composer.lock file
+        run: cp -Tv composer.lock /var/www/medicify.org/website/composer.lock
+      - name: moving cache package-lock.json file
+        run: cp -Tv package-lock.json /var/www/medicify.org/website/package-lock.json
+      - name: moving cache package.json file
+        run: cp -Tv package.json /var/www/medicify.org/website/package.json
+      - name: moving cache phpunit.xml file
+        run: cp -Tv phpunit.xml /var/www/medicify.org/website/phpunit.xml
+      - name: moving cache postcss.config file
+        run: cp -Tv postcss.config.js /var/www/medicify.org/website/postcss.config.js
+      - name: moving cache tailwind.config.js file
+        run: cp -Tv tailwind.config.js /var/www/medicify.org/website/tailwind.config.js
+      - name: moving cache vite.config.js file
+        run: cp -Tv vite.config.js /var/www/medicify.org/website/vite.config.js
+      - name: install package
+        run: composer install
+        working-directory: /var/www/medicify.org/website
+      - name: artisan clear config
+        run: php artisan config:clear
+        working-directory: /var/www/medicify.org/website
+      - name: artisan cache clear
+        run: php artisan cache:clear
+        working-directory: /var/www/medicify.org/website
+      - name: artisan route clear
+        run: php artisan route:clear
+        working-directory: /var/www/medicify.org/website
