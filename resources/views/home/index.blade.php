@@ -23,7 +23,7 @@
                             Bridging Hope and Healing: Medicify, Your Visionary Guide to Medications
 
                         </p>
-                        <a class="btn btn-md circle btn-gradient effect wow fadeInUp" data-wow-delay="700ms" href="#">Coba Sekarang <i class="fas fa-angle-right"></i></a>
+                        <a class="btn btn-md circle btn-gradient effect wow fadeInUp" data-wow-delay="700ms" href="http://app.medicify.org">Coba Sekarang <i class="fas fa-angle-right"></i></a>
                     </div>
 
                      <div class="col-lg-6 thumb wow fadeInRight" data-wow-delay="900ms">
