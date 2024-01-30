@@ -50,7 +50,7 @@
                             </li>
                         </ul> --}}
                     </li>
-                    <li class="dropdown">
+                    {{-- <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Pages</a>
                         <ul class="dropdown-menu">
                             <li><a href="about-us.html">About Us</a></li>
@@ -65,7 +65,7 @@
                             <li><a href="contact.html">Contact Us</a></li>
                             <li><a href="404.html">Error Page</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
                     {{-- <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Projects</a>
                         <ul class="dropdown-menu">

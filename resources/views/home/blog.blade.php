@@ -9,7 +9,7 @@
     <meta name="description" content="Appku - Software Landing Page">
 
     <!-- ========== Page Title ========== -->
-    <title>Appku - Software Landing Page</title>
+    <title>Medicify</title>
 
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -99,22 +99,7 @@
                                 </li>
                             </ul> --}}
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Pages</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li class="dropdown">
-                                    <a href="about-us.html" class="dropdown-toggle" data-toggle="dropdown" >Team Members</a>
-                                    {{-- <ul class="dropdown-menu">
-                                        <li><a href="team.html">Team Style One</a></li>
-                                        <li><a href="team-2.html">Team Style Two</a></li>
-                                        <li><a href="team-details.html">Team Details</a></li>
-                                    </ul> --}}
-                                </li>
-                                <li><a href="contact.html">Contact Us</a></li>
-                                <li><a href="404.html">Error Page</a></li>
-                            </ul>
-                        </li>
+
                         {{-- <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Projects</a>
                             <ul class="dropdown-menu">
@@ -145,7 +130,7 @@
                             </ul>
                         </li> --}}
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Blog</a>
+                            <a href="/blog" class="dropdown-toggle" data-toggle="dropdown" >Blog</a>
                             {{-- <ul class="dropdown-menu">
                                 <li><a href="blog-standard.html">Blog Standard</a></li>
                                 <li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
@@ -195,8 +180,8 @@
                 <div class="col-lg-12 col-md-12">
                     <h1>Blog Standard</h1>
                     <ul class="breadcrumb">
-                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="/blog">Blog</a></li>
                     </ul>
                 </div>
             </div>
